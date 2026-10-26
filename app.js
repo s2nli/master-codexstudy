@@ -112,6 +112,8 @@ window.addEventListener("popstate", (event) => {
   const modal = document.getElementById("courseModal");
   if (!modal || modal.style.display === "none") return;
   const level = event.state && event.state.cx;
+  if (cxLvOpen() && level !== 3) { cxCloseLecture(true); return; }
+  if (level === 2) return; // came back from the lecture player: stay on the chapter list
   if (level === 1) { cxState.subject = null; cxStopVideo(); cxRender(); }
   else closeCourseModal();
 });
@@ -373,12 +375,16 @@ function cxRender() {
   if (sub) {
     if (titleEl) titleEl.textContent = sub.name;
     cxState.items = sub.lectures;
-    const lecRows = sub.lectures.map((lec, i) => `
-      <button class="cx-row" type="button" data-play="${i}">
+    const lecRows = sub.lectures.map((lec, i) => {
+      const lid = cxLecId(lec, i), done = cxIsDone(lid), pct = cxWatchPct(lid);
+      return `
+      <button class="cx-row${done ? " done" : ""}" type="button" data-play="${i}" data-lid="${esc(lid)}">
         <span class="cx-ico">${CX_ICON_VIDEO}</span>
-        <span class="cx-row-text"><b>${esc(lec.title || "Lecture " + (i + 1))}</b><small>${esc(lec.topic || "Video Lecture")}</small></span>
+        <span class="cx-row-text"><b>${esc(lec.title || "Lecture " + (i + 1))}</b><small>${esc(lec.topic || "Video Lecture")}</small><span class="cx-prog" style="${pct ? "" : "display:none"}"><i style="width:${pct}%"></i></span></span>
+        <span class="cx-chk" role="button" tabindex="0" data-chk="${esc(lid)}" aria-pressed="${done ? "true" : "false"}" aria-label="${done ? "Mark as not complete" : "Mark as complete"}">${CX_TICK}</span>
         <span class="cx-chev">${CX_ICON_CHEV}</span>
-      </button>`).join("");
+      </button>`;
+    }).join("");
     const noteRows = sub.notes.map((n, i) => {
       const url = cxSafeUrl(n.url);
       return `<a class="cx-row" ${url ? `href="${esc(url)}" target="_blank" rel="noopener"` : ""}>
@@ -450,6 +456,8 @@ function cxRender() {
   document.addEventListener("click", (event) => {
     const modal = document.getElementById("courseModal");
     if (!modal || modal.style.display === "none" || !modal.contains(event.target)) return;
+    const chk = event.target.closest("[data-chk]");
+    if (chk) { event.stopPropagation(); cxSetDone(chk.getAttribute("data-chk"), !cxIsDone(chk.getAttribute("data-chk"))); return; }
     if (event.target.closest("[data-retry]")) { msLoadBatch(cxState.batch, true); return; }
     const tab = event.target.closest("[data-tab]");
     if (tab) {
@@ -470,10 +478,140 @@ function cxRender() {
     const play = event.target.closest("[data-play]");
     if (play) {
       const lec = cxState.items[Number(play.getAttribute("data-play"))] || {};
-      playLecture(lec.url || lec.hlsUrl || lec.videoUrl || "", lec.title);
+      cxOpenLecture(Number(play.getAttribute("data-play")));
     }
   });
 })();
+
+/* ---------- Premium lecture player (LecturePlayer) + done ticks + recently watched ---------- */
+const CX_DONE_KEY = "cx-done";
+const CX_RECENT_KEY = "codex-studys-recent-lectures";
+const CX_TICK = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>';
+function cxLsGet(k, d) { try { const v = localStorage.getItem(k); return v == null ? d : JSON.parse(v); } catch (e) { return d; } }
+function cxReadDone() { const m = cxLsGet(CX_DONE_KEY, {}); return m && typeof m === "object" && !Array.isArray(m) ? m : {}; }
+function cxLecId(lec, i) { return String((lec && (lec.contentId || lec.url)) || i); }
+function cxBatchId() { return String((cxState.batch && (cxState.batch._id || cxState.batch.id)) || ""); }
+function cxKey(lid) { return cxBatchId() + "-" + lid; }
+function cxIsDone(lid) { return !!cxReadDone()[cxKey(lid)]; }
+function cxWatchPct(lid) {
+  if (cxIsDone(lid)) return 100;
+  const dur = Number(cxLsGet("lp:dur:" + cxKey(lid), 0)) || 0, pos = Number(cxLsGet("lp:pos:" + cxKey(lid), 0)) || 0;
+  return dur && pos > 10 ? Math.min(99, Math.round((pos / dur) * 100)) : 0;
+}
+function cxRefreshRows() {
+  document.querySelectorAll("#modalContentList .cx-row[data-lid]").forEach((row) => {
+    const lid = row.getAttribute("data-lid"), done = cxIsDone(lid), pct = cxWatchPct(lid);
+    row.classList.toggle("done", done);
+    const c = row.querySelector("[data-chk]");
+    if (c) { c.setAttribute("aria-pressed", String(done)); c.setAttribute("aria-label", done ? "Mark as not complete" : "Mark as complete"); }
+    const w = row.querySelector(".cx-prog");
+    if (w) { w.style.display = pct ? "" : "none"; w.firstChild.style.width = pct + "%"; }
+  });
+}
+function cxSetDone(lid, on) {
+  const m = cxReadDone(), k = cxKey(lid);
+  if (on) m[k] = 1; else delete m[k];
+  try { localStorage.setItem(CX_DONE_KEY, JSON.stringify(m)); } catch (e) {}
+  cxRefreshRows();
+}
+function cxTrackLecture(lec, i) {
+  try {
+    const b = cxState.batch, id = cxBatchId(), lid = cxLecId(lec, i);
+    const arr = cxLsGet(CX_RECENT_KEY, []).filter((x) => !(x && x.b === id && String(x.i) === lid));
+    arr.unshift({ b: id, i: lid, t: lec.title || "Lecture", bn: b.name || "", th: b.previewImage || "", s: cxState.subject, at: Date.now() });
+    localStorage.setItem(CX_RECENT_KEY, JSON.stringify(arr.slice(0, 10)));
+  } catch (e) {}
+}
+
+let cxLp = null, cxLpSession = 0, cxLpList = [];
+const cxLvEl = () => document.getElementById("cxLv");
+const cxLvOpen = () => { const el = cxLvEl(); return !!el && el.classList.contains("open"); };
+function cxShowAlt(html) {
+  if (cxLp) { try { cxLp.v.pause(); } catch (e) {} }
+  document.getElementById("cxLvRoot").style.display = "none";
+  const a = document.getElementById("cxLvAlt"); a.innerHTML = html; a.classList.add("show");
+}
+function cxHideAlt() {
+  const a = document.getElementById("cxLvAlt"); a.classList.remove("show"); a.innerHTML = "";
+  document.getElementById("cxLvRoot").style.display = "";
+}
+const cxLpOpts = {
+  onBack: () => cxCloseLecture(false),
+  onNavigate: (n) => { if (n) cxOpenLecture(n.idx); },
+  onSelectLecture: (n) => { if (n) cxOpenLecture(n.idx); },
+  onEnded: (d) => { if (d && d.lid) cxSetDone(d.lid, true); }
+};
+
+function cxOpenLecture(index) {
+  const lec = cxState.items[index];
+  const url = lec && cxSafeUrl(lec.url || lec.hlsUrl || lec.videoUrl || "");
+  if (!url) return showToast("Is lecture ka video link abhi available nahi hai.");
+  if (typeof LecturePlayer === "undefined") return playLecture(url, lec.title);
+  cxLpList = cxState.items.map((x, i) => ({ id: cxKey(cxLecId(x, i)), lid: cxLecId(x, i), idx: i, title: x.title || "Lecture " + (i + 1), ok: !!cxSafeUrl(x.url || x.hlsUrl || x.videoUrl || "") }));
+  const playable = cxLpList.filter((x) => x.ok);
+  const pos = playable.findIndex((x) => x.idx === index);
+  const lid = cxLecId(lec, index);
+  const mine = ++cxLpSession;
+  const el = cxLvEl();
+  if (!cxLvOpen()) {
+    el.classList.add("open");
+    document.body.style.overflow = "hidden";
+    try { window.history.pushState({ cx: 3 }, ""); } catch (e) {}
+  }
+  cxTrackLecture(lec, index);
+  cxHideAlt();
+  const resume = Number(cxLsGet("lp:pos:" + cxKey(lid), 0)) || 0;
+  const d = {
+    id: cxKey(lid), lid, idx: index, kind: /\.m3u8(\?|#|$)/i.test(url) ? "h" : "v", title: lec.title || "Lecture",
+    videoUrl: url, downloadUrl: null, quality: {}, chapters: [],
+    attachments: ((cxState.batch.subjects[cxState.subject] || {}).notes || []).map((n) => ({ title: n.title, url: n.url })),
+    course: { title: (cxState.batch.subjects[cxState.subject] || {}).name || cxState.batch.name || "Lectures" },
+    lectures: playable,
+    previousLecture: pos > 0 ? playable[pos - 1] : null,
+    nextLecture: pos >= 0 && pos < playable.length - 1 ? playable[pos + 1] : null,
+    startAt: resume > 10 ? resume : 0, autoplay: true
+  };
+  if (!cxLp) {
+    cxLp = new LecturePlayer(document.getElementById("cxLvRoot"), d, cxLpOpts);
+    try { LecturePlayer.mediaSession(cxLp, "assets/icon-192.png"); } catch (e) {}
+  } else cxLp.load(d);
+}
+
+function cxCloseLecture(fromPop) {
+  if (!cxLvOpen()) return;
+  cxLpSession++;
+  try { if (document.fullscreenElement) document.exitFullscreen(); } catch (e) {}
+  if (cxLp) { try { cxLp.v.pause(); cxLp.save(); } catch (e) {} }
+  cxHideAlt();
+  cxLvEl().classList.remove("open");
+  document.body.style.overflow = cxState.batch ? "hidden" : "";
+  cxRefreshRows();
+  if (!fromPop && window.history.state && window.history.state.cx === 3) window.history.back();
+}
+document.addEventListener("keydown", (e) => {
+  if (e.key !== "Escape" || !cxLvOpen() || document.fullscreenElement || (cxLp && cxLp.menu)) return;
+  cxCloseLecture(false);
+});
+window.addEventListener("storage", (e) => { if (e.key === CX_DONE_KEY) cxRefreshRows(); });
+
+// "Recently Watched" -> open the batch, jump to the chapter and play that lecture
+async function cxResumeLecture(batch, rec) {
+  openBatch(batch);
+  const wait = async (fn, ms) => { const t0 = Date.now(); while (Date.now() - t0 < ms) { if (fn()) return true; await new Promise((r) => setTimeout(r, 150)); } return false; };
+  if (!(await wait(() => batch._live && (batch._live.status === "done" || batch._live.status === "error"), 20000))) return;
+  const si = Number(rec.s);
+  if (!batch.subjects || !batch.subjects[si]) return;
+  cxState.subject = si;
+  try { window.history.pushState({ cx: 2 }, ""); } catch (e) {}
+  const modal = document.getElementById("courseModal"); if (modal) modal.scrollTop = 0;
+  cxRender();
+  await msLoadSubject(batch, si);
+  if (!(await wait(() => batch.subjects[si].loaded, 15000))) return;
+  const lecs = batch.subjects[si].lectures;
+  const idx = lecs.findIndex((x, i) => cxLecId(x, i) === String(rec.i));
+  cxRender();
+  if (idx >= 0) cxOpenLecture(idx); else showToast("Ye lecture ab nahi mila.");
+}
 
 function playLecture(videoUrl, title) {
   const url = cxSafeUrl(videoUrl);
@@ -523,39 +661,99 @@ function addRecentlyViewed(batch) {
   localStorage.setItem("codex-studys-recent", JSON.stringify(recent.slice(0, 8)));
 }
 
+const RECENT_LECTURES_KEY = "codex-studys-recent-lectures";
+const DONE_KEY = "cx-done";
+let recentExpanded = false;
+
+function readJson(key, fallback) {
+  try { const v = localStorage.getItem(key); return v == null ? fallback : JSON.parse(v); }
+  catch { return fallback; }
+}
+
+function getRecentLectures() {
+  const list = readJson(RECENT_LECTURES_KEY, []);
+  return Array.isArray(list) ? list.filter((x) => x && x.b && x.i != null).slice(0, 10) : [];
+}
+
+function getDoneMap() {
+  const map = readJson(DONE_KEY, {});
+  return map && typeof map === "object" && !Array.isArray(map) ? map : {};
+}
+
+function formatHms(total) {
+  const t = Math.max(0, Math.floor(Number(total) || 0));
+  const h = Math.floor(t / 3600), m = Math.floor((t % 3600) / 60), s = t % 60;
+  return [h, m, s].map((n) => String(n).padStart(2, "0")).join(":");
+}
+
+function lectureWatchInfo(item) {
+  const id = item.b + "-" + item.i;
+  const dur = Number(readJson("lp:dur:" + id, 0)) || 0;
+  const done = !!getDoneMap()[id];
+  let pos = Number(readJson("lp:pos:" + id, 0)) || 0;
+  if (done) pos = dur;
+  if (dur) pos = Math.min(pos, dur);
+  const pct = done ? 100 : dur ? Math.min(100, Math.round((pos / dur) * 100)) : 0;
+  return { pos, dur, pct, done };
+}
+
+function openRecentLecture(item) {
+  const full = allBatches.find((batch) => String(batch._id || batch.batch_id) === String(item.b));
+  if (!full) return showToast("This batch is not available right now.");
+  try { window.CXProfile && window.CXProfile.trackBatch(full); } catch (e) {}
+  cxResumeLecture(full, item);
+}
+
 function renderRecentlyWatched() {
   const statRecent = document.getElementById("statRecent");
   if (statRecent) statRecent.textContent = String(getRecentlyViewed().length);
   const section = document.getElementById("recentSection");
   const row = document.getElementById("recentRow");
   if (!section || !row) return;
-  const items = getRecentlyViewed();
-  if (!items.length) { section.style.display = "none"; row.innerHTML = ""; return; }
+  const items = getRecentLectures();
+  if (!items.length) { section.style.display = "none"; row.innerHTML = ""; recentExpanded = false; return; }
   section.style.display = "block";
-  row.innerHTML = items.map((item) => `
-    <button class="recent-item" type="button" data-recent-id="${escapeHtml(item._id)}">
-      <img class="recent-thumb" src="${escapeHtml(item.previewImage || FALLBACK_THUMB)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.src='${FALLBACK_THUMB}'">
-      <span class="recent-info">
-        <span class="recent-name">${escapeHtml(item.name || "Course")}</span>
-        <span class="recent-sub">${escapeHtml(item.byName || item.language || "Continue watching")}</span>
+  if (items.length < 2) recentExpanded = false;
+  const viewAll = document.getElementById("recentViewAll");
+  if (viewAll) {
+    viewAll.style.display = items.length > 1 ? "" : "none";
+    viewAll.textContent = recentExpanded ? "Show Less" : "View All ›";
+    viewAll.setAttribute("aria-expanded", recentExpanded ? "true" : "false");
+  }
+  const shown = recentExpanded ? items : items.slice(0, 1);
+  row.innerHTML = shown.map((item, index) => {
+    const info = lectureWatchInfo(item);
+    return `
+    <button class="rw-item${info.done ? " full" : ""}" type="button" data-recent-index="${index}">
+      <img class="rw-thumb" src="${escapeHtml(item.th || FALLBACK_THUMB)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src='${FALLBACK_THUMB}'">
+      <span class="rw-info">
+        <span class="rw-name">${escapeHtml(item.t || "Lecture")}</span>
+        <span class="rw-meta"><span>${formatHms(info.pos)} / ${formatHms(info.dur)}</span><span class="rw-pct">Watched: ${info.pct}%</span></span>
+        <span class="rw-bar"><i style="width:${info.pct}%"></i></span>
       </span>
-    </button>`).join("");
-  row.querySelectorAll("[data-recent-id]").forEach((button) => {
-    button.addEventListener("click", () => {
-      const id = button.dataset.recentId;
-      const full = allBatches.find((batch) => (batch._id || batch.batch_id) === id);
-      openBatch(full || items.find((item) => item._id === id));
-    });
+    </button>`;
+  }).join("");
+  row.querySelectorAll("[data-recent-index]").forEach((button) => {
+    button.addEventListener("click", () => openRecentLecture(shown[Number(button.dataset.recentIndex)]));
   });
 }
 
 function setupRecentlyWatched() {
   renderRecentlyWatched();
+  document.getElementById("recentViewAll")?.addEventListener("click", () => {
+    recentExpanded = !recentExpanded;
+    renderRecentlyWatched();
+  });
   document.getElementById("recentClearBtn")?.addEventListener("click", () => {
-    localStorage.removeItem("codex-studys-recent");
+    localStorage.removeItem(RECENT_LECTURES_KEY);
+    recentExpanded = false;
     renderRecentlyWatched();
     showToast("Recently watched cleared.");
   });
+  const refresh = () => renderRecentlyWatched();
+  window.addEventListener("pageshow", refresh);
+  window.addEventListener("storage", refresh);
+  document.addEventListener("visibilitychange", () => { if (!document.hidden) refresh(); });
 }
 
 function setupQuickInstall() {

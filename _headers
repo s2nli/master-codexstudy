@@ -1,0 +1,10 @@
+/service-worker.js
+  Cache-Control: no-cache
+/index.html
+  Cache-Control: no-cache
+/app.js
+  Cache-Control: no-cache
+/lecture-player.js
+  Cache-Control: no-cache
+/lecture-player.css
+  Cache-Control: no-cache

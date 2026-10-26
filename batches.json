@@ -1,25 +1,1996 @@
 {
-  "success": true,
-  "batches": [
+ "success": true,
+ "batches": [
+  {
+   "_id": "44743",
+   "id": 44743,
+   "name": "PRO BATCH 2.0 - 2027",
+   "byName": "Master Sahab / StudyBee",
+   "startDate": "2026",
+   "endDate": "2027",
+   "language": "Hinglish",
+   "previewImage": "assets/pro-batch-2.jpg",
+   "feeTotal": 0,
+   "type": "E_BATCH",
+   "source": "static",
+   "slug": "pro-batch-2-0-2027-44743",
+   "subBatches": [
     {
-      "_id": "44743",
-      "id": 44743,
-      "name": "PRO BATCH 2.0 - 2027",
-      "byName": "Master Sahab / StudyBee",
-      "startDate": "2026",
-      "endDate": "2027",
-      "language": "Hinglish",
-      "previewImage": "assets/pro-batch-2.jpg",
-      "feeTotal": 0,
-      "type": "E_BATCH",
-      "source": "mastersahab",
-      "slug": "pro-batch-2-0-2027-44743",
-      "subBatches": [],
-      "mode": "Recorded",
-      "tagline": "Master Sahab / StudyBee",
-      "about": "PRO BATCH 2.0 - Class 10 Sanskrit by Master Sahab (StudyBee).",
-      "subjects": [],
-      "notes": []
+     "name": "MANIKA BATCH",
+     "byName": "Master Sahab / StudyBee"
+    },
+    {
+     "name": "SHEMUSHI BATCH",
+     "byName": "Master Sahab / StudyBee"
+    },
+    {
+     "name": "SHEMUSHI 2.0",
+     "byName": "Master Sahab / StudyBee"
+    },
+    {
+     "name": "MANIKA 2.0",
+     "byName": "Master Sahab / StudyBee"
     }
-  ]
+   ],
+   "mode": "Recorded",
+   "tagline": "Master Sahab / StudyBee",
+   "about": "PRO BATCH 2.0 - Class 10 Sanskrit by Master Sahab (StudyBee). Manika + Shemushi batches with recorded lectures and PDF notes.",
+   "subjects": [
+    {
+     "name": "MANIKA BATCH · LIVE CLASS PLANNER",
+     "count": "1",
+     "lectures": [],
+     "notes": [
+      {
+       "title": "MANIKA LIVE CLASS PLANNER",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/326949726616584700.pdf"
+      }
+     ]
+    },
+    {
+     "name": "MANIKA BATCH · Anuvad - अनुवाद",
+     "count": "19",
+     "lectures": [
+      {
+       "title": "Anuvad - Lec 01",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4758766/177817405355852352352/177817405355852352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2647484"
+      },
+      {
+       "title": "Anuvad - Lec 02",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4759865/177826111231892352352/177826111231892352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2648875"
+      },
+      {
+       "title": "Anuvad - Lec 03",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4760430/177834722973962352352/177834722973962352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2649714"
+      },
+      {
+       "title": "Anuvad - Lec 04",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4761624/177851949251562352352/177851949251562352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2650752"
+      },
+      {
+       "title": "Anuvad - Lec 05",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4762497/177860548945002352352/177860548945002352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2652590"
+      },
+      {
+       "title": "Anuvad - Lec 06",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4764467/177877923228372352352/177877923228372352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2656820"
+      },
+      {
+       "title": "Anuvad - Lec 07",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4765341/177886449618402352352/177886449618402352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2661564"
+      },
+      {
+       "title": "Anuvad - अनुवाद DPP SOLUTION",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4772527/177972822327922352352/177972822327922352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2669124"
+      },
+      {
+       "title": "Anuvad - अनुवाद DPP SOLUTION PART 2",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/file_library/videos/vod_non_drm_ios/4813587/1784625641_3253301744928668/843884104243477200.m3u8",
+       "topic": "",
+       "contentId": "2732991"
+      }
+     ],
+     "notes": [
+      {
+       "title": "Anuvad - Lec 01 Notes",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/544744709843308000.pdf"
+      },
+      {
+       "title": "Anuvad - Lec 02 Notes",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/347497820180763260.pdf"
+      },
+      {
+       "title": "Anuvad - Lec 03 Notes",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/194089239814092130.pdf"
+      },
+      {
+       "title": "Anuvad - Lec 04 Notes",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/867821116634522100.pdf"
+      },
+      {
+       "title": "Anuvad - Lec 05 Notes",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/359273897957260400.pdf"
+      },
+      {
+       "title": "Anuvad - Lec 06 Notes",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/39819526928506500.pdf"
+      },
+      {
+       "title": "Anuvad - Lec 07 Notes",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/322289927160672400.pdf"
+      },
+      {
+       "title": "SABDROOP PDF",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/102748303656090240.pdf"
+      },
+      {
+       "title": "DHATUROOP PDF",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/2221686080764962.pdf"
+      },
+      {
+       "title": "PRACTICE PDF",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/433900538771382300.pdf"
+      }
+     ]
+    },
+    {
+     "name": "MANIKA BATCH · वाच्य - Vachya",
+     "count": "8",
+     "lectures": [
+      {
+       "title": "वाच्य - Vachya -01",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4767240/177912435649322352352/177912435649322352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2662912"
+      },
+      {
+       "title": "वाच्य - Vachya - 02",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4768077/177921069833232352352/177921069833232352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2664291"
+      },
+      {
+       "title": "वाच्य - Vachya - 03",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4769981/177938272828102352352/177938272828102352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2664454"
+      },
+      {
+       "title": "वाच्य - Vachya  DPP DISCUSIION",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4772521/177972685388002352352/177972685388002352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2667195"
+      }
+     ],
+     "notes": [
+      {
+       "title": "वाच्य - Vachya -01 Notes",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/701202350438623000.pdf"
+      },
+      {
+       "title": "वाच्य - Vachya -02 Notes",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/77538396230031860.pdf"
+      },
+      {
+       "title": "वाच्य - Vachya - 03 Notes",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/835045802135139600.pdf"
+      },
+      {
+       "title": "वाच्य - Vachya DPP PRACTICE PDF",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/735403518474209900.pdf"
+      }
+     ]
+    },
+    {
+     "name": "MANIKA BATCH · Asudhi Sansodhan - अशुद्धि संशोधन",
+     "count": "3",
+     "lectures": [
+      {
+       "title": "Asudhi Sansodhan - अशुद्धि संशोधन - 01",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4773348/177981569067352352352/177981569067352352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2669840"
+      },
+      {
+       "title": "Asudhi Sansodhan - अशुद्धि संशोधन - 02",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4775078/177998893165502352352/177998893165502352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2671145"
+      }
+     ],
+     "notes": [
+      {
+       "title": "Asudhi Sansodhan - अशुद्धि संशोधन - 01 NOTES",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/521378154341083970.pdf"
+      }
+     ]
+    },
+    {
+     "name": "MANIKA BATCH · SANDHI",
+     "count": "19",
+     "lectures": [
+      {
+       "title": "SANDHI - 01",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4776009/178007331412652352352/178007331412652352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2673201"
+      },
+      {
+       "title": "SANDHI - 02",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4777872/178033129536502352352/178033129536502352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2675023"
+      },
+      {
+       "title": "SANDHI - 02 ( PART 2 )",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4777883/178033384613002352352/178033384613002352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2675300"
+      },
+      {
+       "title": "SANDHI - 03",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4778640/178042013942462352352/178042013942462352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2675322"
+      },
+      {
+       "title": "SANDHI - 04",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4779543/178050608848022352352/178050608848022352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2678030"
+      },
+      {
+       "title": "SANDHI - 05",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4781192/178067814634762352352/178067814634762352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2680651"
+      },
+      {
+       "title": "SANDHI - 06",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4781847/178076747989282352352/178076747989282352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2681360"
+      },
+      {
+       "title": "SANDHI BREAK",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4787567/178154333688732352352/178154333688732352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2693924"
+      },
+      {
+       "title": "SANDHI BREAK - 02",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4788461/178162764479142352352/178162764479142352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2695493"
+      },
+      {
+       "title": "SANDHI BREAK - 03",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4789351/178171591474362352352/178171591474362352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2696446"
+      }
+     ],
+     "notes": [
+      {
+       "title": "SANDHI - 01 NOTES",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/657761029232108800.pdf"
+      },
+      {
+       "title": "SANDHI - 02 NOTES",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/691481331904799700.pdf"
+      },
+      {
+       "title": "SANDHI - 03 NOTES",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/222024872366849060.pdf"
+      },
+      {
+       "title": "SANDHI - 04 NOTES",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/826170921359520100.pdf"
+      },
+      {
+       "title": "SANDHI - 05 NOTES",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/268535117552496670.pdf"
+      },
+      {
+       "title": "SANDHI - 06 NOTES",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/153552007766640200.pdf"
+      },
+      {
+       "title": "SANDHI MANIKA DPP",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/160881051882508100.pdf"
+      },
+      {
+       "title": "SANDHI BREAK 01 NOTES",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/188619345478015970.pdf"
+      },
+      {
+       "title": "SANDHI BREAK 02 + 03 NOTES",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/151694421142045500.pdf"
+      }
+     ]
+    },
+    {
+     "name": "MANIKA BATCH · Partay | प्रत्यय",
+     "count": "7",
+     "lectures": [
+      {
+       "title": "Partay | प्रत्यय - 01",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4783553/178102637681472352352/178102637681472352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2683766"
+      },
+      {
+       "title": "Partay | प्रत्यय - 02",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4784415/178111225480522352352/178111225480522352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2685482"
+      },
+      {
+       "title": "Partay | प्रत्यय - 03",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4786073/178128484452852352352/178128484452852352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2692617"
+      },
+      {
+       "title": "कृत प्रत्‍यय",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4817853/178508558670722352352/178508558670722352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2738162"
+      }
+     ],
+     "notes": [
+      {
+       "title": "Partay | प्रत्यय - 01 Notes",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/349722249834788600.pdf"
+      },
+      {
+       "title": "Partay | प्रत्यय - 02 Notes",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/353888395215754940.pdf"
+      },
+      {
+       "title": "कृत प्रत्‍यय NOTES",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566/admin_v1/pdf_images/1823951785085711_0726-2235_%281%29.pdf"
+      }
+     ]
+    },
+    {
+     "name": "MANIKA BATCH · Chapter 1 ",
+     "count": "1",
+     "lectures": [
+      {
+       "title": "Chapter 1 - Manika Book",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4792582/178215048226332352352/178215048226332352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2699974"
+      }
+     ],
+     "notes": []
+    },
+    {
+     "name": "MANIKA BATCH · Chapter 2 | नास्ति त्यागसमं सुखम्",
+     "count": "1",
+     "lectures": [
+      {
+       "title": "Chapter 2 | नास्ति त्यागसमं सुखम्",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4793570/178223519117412352352/178223519117412352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2700926"
+      }
+     ],
+     "notes": []
+    },
+    {
+     "name": "MANIKA BATCH · Chapter 3 | रमणीया हि सृष्टि: एषा",
+     "count": "2",
+     "lectures": [
+      {
+       "title": "Chapter 3 | रमणीया हि सृष्टि: एषा",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4797491/178275265949782352352/178275265949782352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2705441"
+      },
+      {
+       "title": "Chapter 3 | रमणीया हि सृष्टि: एषा PART 2",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4804670/178357676822532352352/178357676822532352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2713212"
+      }
+     ],
+     "notes": []
+    },
+    {
+     "name": "MANIKA BATCH · Chapter 4 - आज्ञा गुरुणां हि अविचारणीया",
+     "count": "1",
+     "lectures": [
+      {
+       "title": "Chapter 4 - आज्ञा गुरुणां हि अविचारणीया",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4828476/178603742818712352352/178603742818712352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2750952"
+      }
+     ],
+     "notes": []
+    },
+    {
+     "name": "MANIKA BATCH · Chapter 5 अभ्यासवशगं मनः ",
+     "count": "1",
+     "lectures": [
+      {
+       "title": "Chapter 5 अभ्यासवशगं मनः",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4843203/178741949018652352352/178741949018652352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2753307"
+      }
+     ],
+     "notes": []
+    },
+    {
+     "name": "MANIKA BATCH · CHAPTER - 6 ",
+     "count": "2",
+     "lectures": [
+      {
+       "title": "CHAPTER - 6 ( Manika )",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4848702/178784935657322352352/178784935657322352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2772894"
+      },
+      {
+       "title": "CHAPTER - 6 ( Manika ) - Part 2",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4851467/178815247726952352352/178815247726952352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2773200"
+      }
+     ],
+     "notes": []
+    },
+    {
+     "name": "MANIKA BATCH · CHAPTER - 7",
+     "count": "1",
+     "lectures": [
+      {
+       "title": "CHAPTER - 7 ( Manika )",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4857285/178845568151392352352/178845568151392352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2778911"
+      }
+     ],
+     "notes": []
+    },
+    {
+     "name": "MANIKA BATCH · CHAPTER - 8 ",
+     "count": "1",
+     "lectures": [
+      {
+       "title": "CHAPTER - 8",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4850261/178802377595582352352/178802377595582352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2773752"
+      }
+     ],
+     "notes": []
+    },
+    {
+     "name": "MANIKA BATCH · CHAPTER - 9",
+     "count": "1",
+     "lectures": [
+      {
+       "title": "CHAPTER - 9",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4858377/178854217814822352352/178854217814822352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2780036"
+      }
+     ],
+     "notes": []
+    },
+    {
+     "name": "MANIKA BATCH · PATRA LEKHAN - पत्र लेखन",
+     "count": "5",
+     "lectures": [
+      {
+       "title": "PATRA LEKHAN - 01",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4822099/178543048368732352352/178543048368732352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2743725"
+      },
+      {
+       "title": "PATRA LEKHAN - पत्र लेखन - 01",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4823015/178551699184972352352/178551699184972352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2744853"
+      },
+      {
+       "title": "PATRA LEKHAN - 03",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4823975/178560320468502352352/178560320468502352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2745885"
+      }
+     ],
+     "notes": [
+      {
+       "title": "PATRA LEKHAN - 01 NOTES",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566/admin_v1/pdf_images/8970751785430598_Print_%2854%29.pdf"
+      },
+      {
+       "title": "PATRA LEKHAN - 02 NOTES",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566/admin_v1/pdf_images/63774931785592341_0731-2226.pdf"
+      }
+     ]
+    },
+    {
+     "name": "MANIKA BATCH · चित्र वर्णन",
+     "count": "6",
+     "lectures": [
+      {
+       "title": "चित्र वर्णन PART 1",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4815089/178474042214172352352/178474042214172352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2734698"
+      },
+      {
+       "title": "चित्र वर्णन PART 2",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4816101/178482637396502352352/178482637396502352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2735792"
+      },
+      {
+       "title": "चित्र वर्णन PART 3",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4817010/178491214198252352352/178491214198252352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2736925"
+      }
+     ],
+     "notes": [
+      {
+       "title": "चित्र वर्णन PART 1 NOTES",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566/admin_v1/pdf_images/8377831784740518_0722-2242.pdf"
+      },
+      {
+       "title": "चित्र वर्णन PART 2 NOTES",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566/admin_v1/pdf_images/50475851784826470_0723-2235.pdf"
+      },
+      {
+       "title": "चित्र वर्णन PART 3 NOTES",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566/admin_v1/pdf_images/42918381785085655_0726-2235.pdf"
+      }
+     ]
+    },
+    {
+     "name": "MANIKA BATCH · घटिका - समय लेखनं",
+     "count": "3",
+     "lectures": [
+      {
+       "title": "घटिका - समय लेखनं ( घटिका - समय लेखनं)",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4782771/178093790889652352352/178093790889652352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2682793"
+      }
+     ],
+     "notes": [
+      {
+       "title": "घटिका - समय लेखनं PRACTICE PDF",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/764815856562359600.pdf"
+      },
+      {
+       "title": "घटिका - समय लेखनं PRACTICE PDF",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/611314407324599900.pdf"
+      }
+     ]
+    },
+    {
+     "name": "MANIKA BATCH · समास - SAMAS",
+     "count": "15",
+     "lectures": [
+      {
+       "title": "समास - SAMAS",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4803653/178344401046492352352/178344401046492352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2719221"
+      },
+      {
+       "title": "समास - SAMAS - 02",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4804434/178353007918022352352/178353007918022352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2720541"
+      },
+      {
+       "title": "समास - SAMAS - 03",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4805391/178361611182442352352/178361611182442352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2721882"
+      },
+      {
+       "title": "समास - SAMAS - 04",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4806347/178370172159082352352/178370172159082352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2722901"
+      },
+      {
+       "title": "समास - SAMAS - 05",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4807820/178396184430382352352/178396184430382352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2725353"
+      },
+      {
+       "title": "समास - SAMAS - 06",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4808683/178404757744122352352/178404757744122352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2726579"
+      },
+      {
+       "title": "समास - SAMAS - 07",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4813031/178456340582232352352/178456340582232352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2732223"
+      },
+      {
+       "title": "समास - SAMAS - 07",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4813052/178456604075152352352/178456604075152352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2732363"
+      }
+     ],
+     "notes": [
+      {
+       "title": "समास - SAMAS - 01  NOTES",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/611553368462755800.pdf"
+      },
+      {
+       "title": "समास - SAMAS - 02 NOTES",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/182569046114594560.pdf"
+      },
+      {
+       "title": "समास - SAMAS - 03 NOTES",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/289622560204986500.pdf"
+      },
+      {
+       "title": "समास - SAMAS - 04 NOTES",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/535215194391093060.pdf"
+      },
+      {
+       "title": "समास - SAMAS - 05 NOTES",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/163325881434457860.pdf"
+      },
+      {
+       "title": "समास - SAMAS - 06 NOTES",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/411099916823519170.pdf"
+      },
+      {
+       "title": "समास - SAMAS - 07 NOTES",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566/admin_v1/pdf_images/21882561784566149_0720-2217.pdf"
+      }
+     ]
+    },
+    {
+     "name": "MANIKA BATCH · संवादपूर्ति - Samwad Poorti",
+     "count": "1",
+     "lectures": [
+      {
+       "title": "संवादपूर्ति - Manika",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4865849/178923184619592352352/178923184619592352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2807678"
+      }
+     ],
+     "notes": []
+    },
+    {
+     "name": "MANIKA BATCH · अपठित अवबोधनम् - Unseen Passage",
+     "count": "1",
+     "lectures": [
+      {
+       "title": "अपठित अवबोधनम्",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4870785/178966562430912352352/178966562430912352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2814207"
+      }
+     ],
+     "notes": []
+    },
+    {
+     "name": "MANIKA BATCH · प्रश्न -  निर्माण ",
+     "count": "1",
+     "lectures": [
+      {
+       "title": "प्रश्न - निर्माण - Part 1 (Manika)",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4872784/178983609346672352352/178983609346672352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2824460"
+      }
+     ],
+     "notes": []
+    },
+    {
+     "name": "MANIKA BATCH · Avayay - अव्यय",
+     "count": "1",
+     "lectures": [
+      {
+       "title": "Avayay - अव्यय - MANIKA",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4883305/179051539735952352352/179051539735952352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2877783"
+      }
+     ],
+     "notes": []
+    },
+    {
+     "name": "MANIKA BATCH · उचित - अर्थ",
+     "count": "3",
+     "lectures": [
+      {
+       "title": "उचित - अर्थ ( MANIKA )",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4864061/178906095188442352352/178906095188442352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2805496"
+      }
+     ],
+     "notes": [
+      {
+       "title": "उचित - अर्थ NOTES",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566/admin_v1/pdf_images/69074391789061017_uchit_arth_nkotes.pdf"
+      },
+      {
+       "title": "उचित - अर्थ PRACTICE PDF",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566/admin_v1/pdf_images/40922131789061057_uchitcarth.pdf"
+      }
+     ]
+    },
+    {
+     "name": "MANIKA BATCH · अन्वय - Anvaya",
+     "count": "1",
+     "lectures": [
+      {
+       "title": "अन्वय - Manika",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4886098/179061526218442352352/179061526218442352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2879182"
+      }
+     ],
+     "notes": []
+    },
+    {
+     "name": "MANIKA BATCH · कथापूर्ति - Kathapurti",
+     "count": "1",
+     "lectures": [
+      {
+       "title": "कथापूर्ति",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4865073/178914516713802352352/178914516713802352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2806985"
+      }
+     ],
+     "notes": []
+    },
+    {
+     "name": "SHEMUSHI BATCH · Anuvad - अनुवाद",
+     "count": "19",
+     "lectures": [
+      {
+       "title": "Anuvad - Lec 01",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4758766/177817405355852352352/177817405355852352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2647484"
+      },
+      {
+       "title": "Anuvad - Lec 02",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4759865/177826111231892352352/177826111231892352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2648875"
+      },
+      {
+       "title": "Anuvad - Lec 03",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4760430/177834722973962352352/177834722973962352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2649714"
+      },
+      {
+       "title": "Anuvad - Lec 04",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4761624/177851949251562352352/177851949251562352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2650752"
+      },
+      {
+       "title": "Anuvad - Lec 05",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4762497/177860548945002352352/177860548945002352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2652590"
+      },
+      {
+       "title": "Anuvad - Lec 06",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4764467/177877923228372352352/177877923228372352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2656820"
+      },
+      {
+       "title": "Anuvad - Lec 07",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4765341/177886449618402352352/177886449618402352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2661564"
+      },
+      {
+       "title": "Anuvad - अनुवाद DPP SOLUTION",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4772527/177972822327922352352/177972822327922352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2669124"
+      },
+      {
+       "title": "Anuvad - अनुवाद DPP SOLUTION PART 2",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/file_library/videos/vod_non_drm_ios/4813587/1784625641_3253301744928668/843884104243477200.m3u8",
+       "topic": "",
+       "contentId": "2732991"
+      }
+     ],
+     "notes": [
+      {
+       "title": "Anuvad - Lec 01 Notes",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/544744709843308000.pdf"
+      },
+      {
+       "title": "Anuvad - Lec 02 Notes",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/347497820180763260.pdf"
+      },
+      {
+       "title": "Anuvad - Lec 03 Notes",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/194089239814092130.pdf"
+      },
+      {
+       "title": "Anuvad - Lec 04 Notes",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/867821116634522100.pdf"
+      },
+      {
+       "title": "Anuvad - Lec 05 Notes",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/359273897957260400.pdf"
+      },
+      {
+       "title": "Anuvad - Lec 06 Notes",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/39819526928506500.pdf"
+      },
+      {
+       "title": "Anuvad - Lec 07 Notes",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/322289927160672400.pdf"
+      },
+      {
+       "title": "SABDROOP PDF",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/102748303656090240.pdf"
+      },
+      {
+       "title": "DHATUROOP PDF",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/2221686080764962.pdf"
+      },
+      {
+       "title": "PRACTICE PDF",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/433900538771382300.pdf"
+      }
+     ]
+    },
+    {
+     "name": "SHEMUSHI BATCH · LIVE CLASS PLANNER",
+     "count": "1",
+     "lectures": [],
+     "notes": [
+      {
+       "title": "SHEMUSHI LIVE CLASS PLANNER",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/121449609611405940.pdf"
+      }
+     ]
+    },
+    {
+     "name": "SHEMUSHI BATCH · वाच्य - Vachya",
+     "count": "8",
+     "lectures": [
+      {
+       "title": "वाच्य - Vachya -01",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4767240/177912435649322352352/177912435649322352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2662912"
+      },
+      {
+       "title": "वाच्य - Vachya - 02",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4768077/177921069833232352352/177921069833232352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2664291"
+      },
+      {
+       "title": "वाच्य - Vachya - 03",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4769981/177938272828102352352/177938272828102352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2664454"
+      },
+      {
+       "title": "वाच्य - Vachya  DPP DISCUSIION",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4772521/177972685388002352352/177972685388002352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2667195"
+      }
+     ],
+     "notes": [
+      {
+       "title": "वाच्य - Vachya -01 Notes",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/701202350438623000.pdf"
+      },
+      {
+       "title": "वाच्य - Vachya -02 Notes",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/77538396230031860.pdf"
+      },
+      {
+       "title": "वाच्य - Vachya - 03 Notes",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/835045802135139600.pdf"
+      },
+      {
+       "title": "वाच्य - Vachya DPP PRACTICE PDF",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/735403518474209900.pdf"
+      }
+     ]
+    },
+    {
+     "name": "SHEMUSHI BATCH · Asudhi Sansodhan - अशुद्धि संशोधन",
+     "count": "3",
+     "lectures": [
+      {
+       "title": "Asudhi Sansodhan - अशुद्धि संशोधन - 01",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4773348/177981569067352352352/177981569067352352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2669840"
+      },
+      {
+       "title": "Asudhi Sansodhan - अशुद्धि संशोधन - 02",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4775078/177998893165502352352/177998893165502352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2671145"
+      }
+     ],
+     "notes": [
+      {
+       "title": "Asudhi Sansodhan - अशुद्धि संशोधन - 01 NOTES",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/521378154341083970.pdf"
+      }
+     ]
+    },
+    {
+     "name": "SHEMUSHI BATCH · SANDHI",
+     "count": "19",
+     "lectures": [
+      {
+       "title": "SANDHI - 01",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4776009/178007331412652352352/178007331412652352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2673201"
+      },
+      {
+       "title": "SANDHI - 02",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4777872/178033129536502352352/178033129536502352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2675023"
+      },
+      {
+       "title": "SANDHI - 02 ( PART 2 )",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4777883/178033384613002352352/178033384613002352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2675300"
+      },
+      {
+       "title": "SANDHI - 03",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4778640/178042013942462352352/178042013942462352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2675322"
+      },
+      {
+       "title": "SANDHI - 04",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4779543/178050608848022352352/178050608848022352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2678030"
+      },
+      {
+       "title": "SANDHI - 05",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4781192/178067814634762352352/178067814634762352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2680651"
+      },
+      {
+       "title": "SANDHI - 06",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4781847/178076747989282352352/178076747989282352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2681360"
+      },
+      {
+       "title": "SANDHI BREAK",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4787567/178154333688732352352/178154333688732352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2693924"
+      },
+      {
+       "title": "SANDHI BREAK - 02",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4788461/178162764479142352352/178162764479142352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2695493"
+      },
+      {
+       "title": "SANDHI BREAK - 03",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4789351/178171591474362352352/178171591474362352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2696446"
+      }
+     ],
+     "notes": [
+      {
+       "title": "SANDHI - 01 NOTES",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/657761029232108800.pdf"
+      },
+      {
+       "title": "SANDHI - 02 NOTES",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/691481331904799700.pdf"
+      },
+      {
+       "title": "SANDHI - 03 NOTES",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/222024872366849060.pdf"
+      },
+      {
+       "title": "SANDHI - 04 NOTES",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/826170921359520100.pdf"
+      },
+      {
+       "title": "SANDHI - 05 NOTES",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/268535117552496670.pdf"
+      },
+      {
+       "title": "SANDHI - 06 NOTES",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/153552007766640200.pdf"
+      },
+      {
+       "title": "SANDHI SHEMUSHI DPP",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/76345814391035950.pdf"
+      },
+      {
+       "title": "SANDHI BREAK 01 NOTES",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/188619345478015970.pdf"
+      },
+      {
+       "title": "SANDHI BREAK 02 + 03 NOTES",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/151694421142045500.pdf"
+      }
+     ]
+    },
+    {
+     "name": "SHEMUSHI BATCH · Partay | प्रत्यय",
+     "count": "9",
+     "lectures": [
+      {
+       "title": "Partay | प्रत्यय - 01",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4783553/178102637681472352352/178102637681472352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2683766"
+      },
+      {
+       "title": "Partay | प्रत्यय - 02",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4784415/178111225480522352352/178111225480522352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2685482"
+      },
+      {
+       "title": "Partay | प्रत्यय - 03",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4786073/178128484452852352352/178128484452852352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2692617"
+      },
+      {
+       "title": "कृत प्रत्‍यय",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4817853/178508558670722352352/178508558670722352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2738162"
+      },
+      {
+       "title": "कृत प्रत्‍यय Part 2",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4818908/178517059047132352352/178517059047132352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2739782"
+      }
+     ],
+     "notes": [
+      {
+       "title": "Partay | प्रत्यय - 01 Notes",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/349722249834788600.pdf"
+      },
+      {
+       "title": "Partay | प्रत्यय - 02 Notes",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/353888395215754940.pdf"
+      },
+      {
+       "title": "कृत प्रत्‍यय NOTES",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566/admin_v1/pdf_images/1823951785085711_0726-2235_%281%29.pdf"
+      },
+      {
+       "title": "कृत प्रत्‍यय Part 2 NOTES",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566/admin_v1/pdf_images/15074521785170704_0727-2212.pdf"
+      }
+     ]
+    },
+    {
+     "name": "SHEMUSHI BATCH · Chapter 1 ",
+     "count": "1",
+     "lectures": [
+      {
+       "title": "Chapter 1 ( Shemushi )",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4795244/178240838497272352352/178240838497272352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2702705"
+      }
+     ],
+     "notes": []
+    },
+    {
+     "name": "SHEMUSHI BATCH · Chapter 2 | बुद्धिर्बलवती सदा",
+     "count": "1",
+     "lectures": [
+      {
+       "title": "Chapter 2 | बुद्धिर्बलवती सदा",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4796537/178258141065252352352/178258141065252352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2703476"
+      }
+     ],
+     "notes": []
+    },
+    {
+     "name": "SHEMUSHI BATCH · Chapter 3 | शिशुलालनम्",
+     "count": "2",
+     "lectures": [
+      {
+       "title": "Chapter 3 | शिशुलालनम् PART 1",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4800148/178301181493582352352/178301181493582352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2714476"
+      },
+      {
+       "title": "Chapter 3 | शिशुलालनम् PART 2",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4800995/178309981629942352352/178309981629942352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2715784"
+      }
+     ],
+     "notes": []
+    },
+    {
+     "name": "SHEMUSHI BATCH · सुभाषितानि | Subhashitani",
+     "count": "1",
+     "lectures": [
+      {
+       "title": "सुभाषितानि | Subhashitani",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4845871/178767863274332352352/178767863274332352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2770865"
+      }
+     ],
+     "notes": []
+    },
+    {
+     "name": "SHEMUSHI BATCH · CHAPTER - 5 ",
+     "count": "1",
+     "lectures": [
+      {
+       "title": "CHAPTER - 5 SHEMUSHI",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4844755/178759164137962352352/178759164137962352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2769562"
+      }
+     ],
+     "notes": []
+    },
+    {
+     "name": "SHEMUSHI BATCH · Chapter 6 - सौहार्दं प्रकृतेः शोभा",
+     "count": "4",
+     "lectures": [
+      {
+       "title": "Chapter 6 - सौहार्दं प्रकृतेः शोभा - Part 1",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4853174/178819565086112352352/178819565086112352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2775021"
+      },
+      {
+       "title": "Chapter 6 - सौहार्दं प्रकृतेः शोभा - Part 2",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4854799/178828134725492352352/178828134725492352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2775711"
+      },
+      {
+       "title": "Chapter 6 - सौहार्दं प्रकृतेः शोभा - part 3",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4856087/178836807454682352352/178836807454682352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2777405"
+      },
+      {
+       "title": "Chapter 6 - सौहार्दं प्रकृतेः शोभा - part 4",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4860212/178880217569152352352/178880217569152352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2782264"
+      }
+     ],
+     "notes": []
+    },
+    {
+     "name": "SHEMUSHI BATCH · विचित्र: साक्षी",
+     "count": "1",
+     "lectures": [
+      {
+       "title": "विचित्र: साक्षी",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4847310/178776518376552352352/178776518376552352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2772080"
+      }
+     ],
+     "notes": []
+    },
+    {
+     "name": "SHEMUSHI BATCH · CHAPTER - 8 ",
+     "count": "1",
+     "lectures": [
+      {
+       "title": "CHAPTER - 8",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4850261/178802377595582352352/178802377595582352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2773752"
+      }
+     ],
+     "notes": []
+    },
+    {
+     "name": "SHEMUSHI BATCH · CHAPTER - 9",
+     "count": "2",
+     "lectures": [
+      {
+       "title": "CHAPTER - 9",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4861473/178888670224732352352/178888670224732352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2799108"
+      },
+      {
+       "title": "CHAPTER - 9 PART 2",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4867050/178940519250612352352/178940519250612352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2809265"
+      }
+     ],
+     "notes": []
+    },
+    {
+     "name": "SHEMUSHI BATCH · चित्र वर्णन",
+     "count": "6",
+     "lectures": [
+      {
+       "title": "चित्र वर्णन PART 1",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4815089/178474042214172352352/178474042214172352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2734698"
+      },
+      {
+       "title": "चित्र वर्णन PART 2",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4816101/178482637396502352352/178482637396502352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2735792"
+      },
+      {
+       "title": "चित्र वर्णन PART 3",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4817010/178491214198252352352/178491214198252352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2736925"
+      }
+     ],
+     "notes": [
+      {
+       "title": "चित्र वर्णन PART 1 NOTES",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566/admin_v1/pdf_images/8377831784740518_0722-2242.pdf"
+      },
+      {
+       "title": "चित्र वर्णन PART 2 NOTES",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566/admin_v1/pdf_images/50475851784826470_0723-2235.pdf"
+      },
+      {
+       "title": "चित्र वर्णन PART 3 NOTES",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566/admin_v1/pdf_images/42918381785085655_0726-2235.pdf"
+      }
+     ]
+    },
+    {
+     "name": "SHEMUSHI BATCH · PATRA LEKHAN - पत्र लेखन",
+     "count": "11",
+     "lectures": [
+      {
+       "title": "PATRA LEKHAN - 01",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4822099/178543048368732352352/178543048368732352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2743725"
+      },
+      {
+       "title": "PATRA LEKHAN - पत्र लेखन - 01",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4823015/178551699184972352352/178551699184972352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2744853"
+      },
+      {
+       "title": "PATRA LEKHAN - 03",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4823975/178560320468502352352/178560320468502352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2745885"
+      },
+      {
+       "title": "PATRA LEKHAN - 04",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4825069/178577743195312352352/178577743195312352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2747335"
+      },
+      {
+       "title": "PATRA LEKHAN - 05",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4828342/178602659499712352352/178602659499712352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2748636"
+      },
+      {
+       "title": "PATRA LEKHAN - 06",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4827239/178594790722552352352/178594790722552352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2749845"
+      }
+     ],
+     "notes": [
+      {
+       "title": "PATRA LEKHAN - 01 NOTES",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566/admin_v1/pdf_images/8970751785430598_Print_%2854%29.pdf"
+      },
+      {
+       "title": "PATRA LEKHAN - 02 NOTES",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566/admin_v1/pdf_images/63774931785592341_0731-2226.pdf"
+      },
+      {
+       "title": "PATRA LEKHAN - 06 NOTES",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566/admin_v1/pdf_images/12471581785948035_0805-2208.pdf"
+      },
+      {
+       "title": "PATRA LEKHAN - 05 NOTES",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566/admin_v1/pdf_images/15166711785948093_0804-2232.pdf"
+      },
+      {
+       "title": "PATRA LEKHAN - 04 NOTES",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566/admin_v1/pdf_images/29220061785948135_0803-2247.pdf"
+      }
+     ]
+    },
+    {
+     "name": "SHEMUSHI BATCH · घटिका - समय लेखनं",
+     "count": "3",
+     "lectures": [
+      {
+       "title": "घटिका - समय लेखनं ( घटिका - समय लेखनं)",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4782771/178093790889652352352/178093790889652352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2682793"
+      }
+     ],
+     "notes": [
+      {
+       "title": "घटिका - समय लेखनं PRACTICE PDF",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/764815856562359600.pdf"
+      },
+      {
+       "title": "घटिका - समय लेखनं PRACTICE PDF",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/611314407324599900.pdf"
+      }
+     ]
+    },
+    {
+     "name": "SHEMUSHI BATCH · समास - SAMAS",
+     "count": "15",
+     "lectures": [
+      {
+       "title": "समास - SAMAS",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4803653/178344401046492352352/178344401046492352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2719221"
+      },
+      {
+       "title": "समास - SAMAS - 02",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4804434/178353007918022352352/178353007918022352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2720541"
+      },
+      {
+       "title": "समास - SAMAS - 03",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4805391/178361611182442352352/178361611182442352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2721882"
+      },
+      {
+       "title": "समास - SAMAS - 04",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4806347/178370172159082352352/178370172159082352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2722901"
+      },
+      {
+       "title": "समास - SAMAS - 05",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4807820/178396184430382352352/178396184430382352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2725353"
+      },
+      {
+       "title": "समास - SAMAS - 06",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4808683/178404757744122352352/178404757744122352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2726579"
+      },
+      {
+       "title": "समास - SAMAS - 07",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4813031/178456340582232352352/178456340582232352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2732223"
+      },
+      {
+       "title": "समास - SAMAS - 07",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4813052/178456604075152352352/178456604075152352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2732363"
+      }
+     ],
+     "notes": [
+      {
+       "title": "समास - SAMAS - 01  NOTES",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/611553368462755800.pdf"
+      },
+      {
+       "title": "समास - SAMAS - 02 NOTES",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/182569046114594560.pdf"
+      },
+      {
+       "title": "समास - SAMAS - 03 NOTES",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/289622560204986500.pdf"
+      },
+      {
+       "title": "समास - SAMAS - 04 NOTES",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/535215194391093060.pdf"
+      },
+      {
+       "title": "समास - SAMAS - 05 NOTES",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/163325881434457860.pdf"
+      },
+      {
+       "title": "समास - SAMAS - 06 NOTES",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/411099916823519170.pdf"
+      },
+      {
+       "title": "समास - SAMAS - 07 NOTES",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566/admin_v1/pdf_images/21882561784566149_0720-2217.pdf"
+      }
+     ]
+    },
+    {
+     "name": "SHEMUSHI BATCH · उचित - अर्थ",
+     "count": "1",
+     "lectures": [
+      {
+       "title": "उचित - अर्थ - Shemushi",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4868342/178949098729702352352/178949098729702352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2811197"
+      }
+     ],
+     "notes": []
+    },
+    {
+     "name": "SHEMUSHI BATCH · प्रश्न -  निर्माण ",
+     "count": "2",
+     "lectures": [
+      {
+       "title": "प्रश्न - निर्माण - Part 1 ( Shemushi )",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4876712/179016042829812352352/179016042829812352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2826462"
+      },
+      {
+       "title": "प्रश्न - निर्माण - Part 2 ( Shemushi )",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4875701/179009591143852352352/179009591143852352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2827086"
+      }
+     ],
+     "notes": []
+    },
+    {
+     "name": "SHEMUSHI BATCH · प्रश्न निर्माण 3, अन्वय,अव्यय,समास left Topic",
+     "count": "1",
+     "lectures": [
+      {
+       "title": "प्रश्न निर्माण 3, अन्वय,अव्यय,समास left Topic  - SHEMUSHI",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4883240/179050342146342352352/179050342146342352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2877781"
+      }
+     ],
+     "notes": []
+    },
+    {
+     "name": "SHEMUSHI BATCH · घटनाक्रम - Ghatnakram",
+     "count": "1",
+     "lectures": [
+      {
+       "title": "घटनाक्रम",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4869614/178957762512442352352/178957762512442352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2812979"
+      }
+     ],
+     "notes": []
+    },
+    {
+     "name": "SHEMUSHI BATCH · अपठित अवबोधनम् - Unseen Passage",
+     "count": "1",
+     "lectures": [
+      {
+       "title": "अपठित अवबोधनम्",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4870785/178966562430912352352/178966562430912352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2814207"
+      }
+     ],
+     "notes": []
+    },
+    {
+     "name": "SHEMUSHI 2.0 · SHEMUSHI 2.0 PLANNER",
+     "count": "1",
+     "lectures": [],
+     "notes": [
+      {
+       "title": "SHEMUSHI 2.0 PLANNER PDF",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/282593577379362430.pdf"
+      }
+     ]
+    },
+    {
+     "name": "SHEMUSHI 2.0 · WELCOME INTRO",
+     "count": "1",
+     "lectures": [
+      {
+       "title": "WELCOME INTRODUCTION VIDEO",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/file_library/videos/vod_non_drm_ios/4879240/1790253512_4361788606800429/150403246746193900.m3u8",
+       "topic": "",
+       "contentId": "2875342"
+      }
+     ],
+     "notes": []
+    },
+    {
+     "name": "SHEMUSHI 2.0 · SANDHI - 2.0",
+     "count": "8",
+     "lectures": [
+      {
+       "title": "SANDHI - LEC 01 - PRO 2.0",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4896831/179139460345702352352/179139460345702352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2886368"
+      },
+      {
+       "title": "SANDHI - LEC 02 - PRO 2.0",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4897974/179148098029502352352/179148098029502352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2886374"
+      },
+      {
+       "title": "SANDHI - LEC 03 - PRO 2.0",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4898953/179156762056572352352/179156762056572352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2886379"
+      },
+      {
+       "title": "SANDHI - DPP SOLUTION ( SHEMUSHI )",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/file_library/videos/vod_non_drm_ios/4898946/1791564264_8798272951764597/740149028342370800.m3u8",
+       "topic": "",
+       "contentId": "2893599"
+      }
+     ],
+     "notes": [
+      {
+       "title": "SANDHI - LEC 01 - PRO 2.0",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566/admin_v1/pdf_images/1844671791394935_class_no_1_notes.pdf"
+      },
+      {
+       "title": "SANDHI - LEC 02 NOTES - PRO 2.0",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566/admin_v1/pdf_images/35489731791481164_class_2.pdf"
+      },
+      {
+       "title": "SANDHI - LEC 03 NOTES - PRO 2.0",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566/admin_v1/pdf_images/72089481791567920_class3.pdf"
+      },
+      {
+       "title": "SANDHI - PRACTICE PDF -  DPP",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566/admin_v1/pdf_images/51871151791601288_%E0%A4%B8%E0%A4%82%E0%A4%B8%E0%A5%8D%E0%A4%95%E0%A5%83%E0%A4%A4_%E0%A4%B8%E0%A4%82%E0%A4%A7%E0%A4%BF_%E0%A4%85%E0%A4%AD%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%B8-%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%95_%28%E0%A4%B6%E0%A5%87%E0%A4%AE%E0%A5%81%E0%A4%B7%E0%A5%80_DPP%29-2.pdf"
+      }
+     ]
+    },
+    {
+     "name": "SHEMUSHI 2.0 · PARTYAY - 2.0",
+     "count": "6",
+     "lectures": [
+      {
+       "title": "PARTYAY LEC 01 - PRO 2.0",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4899797/179173830226242352352/179173830226242352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2886398"
+      },
+      {
+       "title": "PARTYAY LEC 02 - PRO 2.0",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4900816/179182693885352352352/179182693885352352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2886401"
+      },
+      {
+       "title": "PARTYAY DPP SOLUTION",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/file_library/videos/vod_non_drm_ios/4901208/1791876184_3809225349182139/420713808921130430.m3u8",
+       "topic": "",
+       "contentId": "2896993"
+      }
+     ],
+     "notes": [
+      {
+       "title": "PARTYAY LEC 01 NOTES",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566/admin_v1/pdf_images/64919241791738452_partya_1.pdf"
+      },
+      {
+       "title": "PARTYAY LEC 02 NOTES",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566/admin_v1/pdf_images/57091541791827139_partya_part_2.pdf"
+      },
+      {
+       "title": "PARTYAY PRACTICE PDF",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566/admin_v1/pdf_images/3162991791876582_Print-2.pdf"
+      }
+     ]
+    },
+    {
+     "name": "SHEMUSHI 2.0 · ANUVAD 2.0",
+     "count": "8",
+     "lectures": [
+      {
+       "title": "ANUVAD LEC 01",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4901950/179191106671622352352/179191106671622352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2896683"
+      },
+      {
+       "title": "ANUVAD LEC 02",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4903053/179199907477812352352/179199907477812352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2896684"
+      },
+      {
+       "title": "ANUVAD LEC 03",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4904324/179208549998202352352/179208549998202352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2896685"
+      },
+      {
+       "title": "ANUVAD LEC 04",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4905398/179217074346222352352/179217074346222352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2896687"
+      }
+     ],
+     "notes": [
+      {
+       "title": "ANUVAD LEC 01 NOTES",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566/admin_v1/pdf_images/72448721791911407_1013-2234.pdf"
+      },
+      {
+       "title": "ANUVAD LEC 03 NOTES",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566/admin_v1/pdf_images/9779071792085643_1015-2301.pdf"
+      },
+      {
+       "title": "ANUVAD LEC 02 NOTES",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566/admin_v1/pdf_images/76992671792085694_anubad_class_2.pdf"
+      },
+      {
+       "title": "ANUVAD LEC 04 NOTES",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566/admin_v1/pdf_images/34083851792170920_anubad_4.pdf"
+      }
+     ]
+    },
+    {
+     "name": "SHEMUSHI 2.0 · VACHYA - 2.0",
+     "count": "5",
+     "lectures": [
+      {
+       "title": "VACHYA - LEC 01",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4909744/179269024113962352352/179269024113962352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2912372"
+      },
+      {
+       "title": "VACHYA - LEC 02",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4910690/179277600591722352352/179277600591722352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2912373"
+      },
+      {
+       "title": "VACHYA DPP SOLUTION",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/file_library/videos/vod_non_drm_ios/4910664/1792770933_2069596153373939/168300816114152100.m3u8",
+       "topic": "",
+       "contentId": "2914713"
+      }
+     ],
+     "notes": [
+      {
+       "title": "VACHYA - LEC 01 NOTES",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566/admin_v1/pdf_images/25722361792690473_vachya_part_1.pdf"
+      },
+      {
+       "title": "VACHYA DPP PDF",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566/admin_v1/pdf_images/76961111792776085_Print-3.pdf"
+      }
+     ]
+    },
+    {
+     "name": "SHEMUSHI 2.0 · ASUDHI SANSODHAN - 2.0",
+     "count": "4",
+     "lectures": [
+      {
+       "title": "ASUDHI SANSODHAN - LEC 01",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4911268/179286128389502352352/179286128389502352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2915118"
+      },
+      {
+       "title": "ASUDHI SANSODHAN - LEC 02",
+       "url": "https://d2s647pgnq81az.cloudfront.net/out/v1/b838ea84b51649599a6da6d04c47654e/index.m3u8",
+       "topic": "",
+       "contentId": "2915123"
+      },
+      {
+       "title": "ASUDHI SANSODHAN DPP SOLUTIOJ",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/file_library/videos/vod_non_drm_ios/4910892/1792827008_1156593715472558/302190616121363840.m3u8",
+       "topic": "",
+       "contentId": "2915176"
+      }
+     ],
+     "notes": [
+      {
+       "title": "ASUDHI SANSODHAN DPP",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566/admin_v1/pdf_images/56963541792827120_Print-4.pdf"
+      }
+     ]
+    },
+    {
+     "name": "MANIKA 2.0 · MANIKA 2.0 PLANNER",
+     "count": "1",
+     "lectures": [],
+     "notes": [
+      {
+       "title": "MANIKA 2.0 PLANNER",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566admin_v1/file_manager/pdf/192773487418326100.pdf"
+      }
+     ]
+    },
+    {
+     "name": "MANIKA 2.0 · WELCOME INTRO",
+     "count": "1",
+     "lectures": [
+      {
+       "title": "WELCOME INTRODUCTION VIDEO",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/file_library/videos/vod_non_drm_ios/4879240/1790253512_4361788606800429/150403246746193900.m3u8",
+       "topic": "",
+       "contentId": "2875342"
+      }
+     ],
+     "notes": []
+    },
+    {
+     "name": "MANIKA 2.0 · SANDHI - 2.0",
+     "count": "8",
+     "lectures": [
+      {
+       "title": "SANDHI - LEC 01 - PRO 2.0",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4896831/179139460345702352352/179139460345702352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2886368"
+      },
+      {
+       "title": "SANDHI - LEC 02 - PRO 2.0",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4897974/179148098029502352352/179148098029502352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2886374"
+      },
+      {
+       "title": "SANDHI - LEC 03 - PRO 2.0",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4898953/179156762056572352352/179156762056572352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2886379"
+      },
+      {
+       "title": "SANDHI - DPP SOLUTION ( MANIKA )",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/file_library/videos/vod_non_drm_ios/4898947/1791564379_5754227131083832/833552470337701000.m3u8",
+       "topic": "",
+       "contentId": "2893601"
+      }
+     ],
+     "notes": [
+      {
+       "title": "SANDHI - LEC 01 - PRO 2.0",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566/admin_v1/pdf_images/1844671791394935_class_no_1_notes.pdf"
+      },
+      {
+       "title": "SANDHI - LEC 02 NOTES - PRO 2.0",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566/admin_v1/pdf_images/35489731791481164_class_2.pdf"
+      },
+      {
+       "title": "SANDHI - LEC 03 NOTES - PRO 2.0",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566/admin_v1/pdf_images/72089481791567920_class3.pdf"
+      },
+      {
+       "title": "SANDHI - PRACTICE PDF -  DPP",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566/admin_v1/pdf_images/9147961791601543_17913495471462695436_copy.pdf"
+      }
+     ]
+    },
+    {
+     "name": "MANIKA 2.0 · PARTYAY - 2.0",
+     "count": "6",
+     "lectures": [
+      {
+       "title": "PARTYAY LEC 01 - PRO 2.0",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4899797/179173830226242352352/179173830226242352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2886398"
+      },
+      {
+       "title": "PARTYAY LEC 02 - PRO 2.0",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4900816/179182693885352352352/179182693885352352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2886401"
+      },
+      {
+       "title": "PARTYAY DPP SOLUTION",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/file_library/videos/vod_non_drm_ios/4901208/1791876184_3809225349182139/420713808921130430.m3u8",
+       "topic": "",
+       "contentId": "2896993"
+      }
+     ],
+     "notes": [
+      {
+       "title": "PARTYAY LEC 01 NOTES",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566/admin_v1/pdf_images/64919241791738452_partya_1.pdf"
+      },
+      {
+       "title": "PARTYAY LEC 02 NOTES",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566/admin_v1/pdf_images/57091541791827139_partya_part_2.pdf"
+      },
+      {
+       "title": "PARTYAY PRACTICE PDF",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566/admin_v1/pdf_images/37978961791876603_Print.pdf"
+      }
+     ]
+    },
+    {
+     "name": "MANIKA 2.0 · ANUVAD 2.0",
+     "count": "8",
+     "lectures": [
+      {
+       "title": "ANUVAD LEC 01",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4901950/179191106671622352352/179191106671622352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2896683"
+      },
+      {
+       "title": "ANUVAD LEC 02",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4903053/179199907477812352352/179199907477812352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2896684"
+      },
+      {
+       "title": "ANUVAD LEC 03",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4904324/179208549998202352352/179208549998202352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2896685"
+      },
+      {
+       "title": "ANUVAD LEC 04",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4905398/179217074346222352352/179217074346222352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2896687"
+      }
+     ],
+     "notes": [
+      {
+       "title": "ANUVAD LEC 01 NOTES",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566/admin_v1/pdf_images/72448721791911407_1013-2234.pdf"
+      },
+      {
+       "title": "ANUVAD LEC 03 NOTES",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566/admin_v1/pdf_images/9779071792085643_1015-2301.pdf"
+      },
+      {
+       "title": "ANUVAD LEC 02 NOTES",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566/admin_v1/pdf_images/76992671792085694_anubad_class_2.pdf"
+      },
+      {
+       "title": "ANUVAD LEC 04 NOTES",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566/admin_v1/pdf_images/34083851792170920_anubad_4.pdf"
+      }
+     ]
+    },
+    {
+     "name": "MANIKA 2.0 · VACHYA - 2.0",
+     "count": "5",
+     "lectures": [
+      {
+       "title": "VACHYA - LEC 01",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4909744/179269024113962352352/179269024113962352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2912372"
+      },
+      {
+       "title": "VACHYA - LEC 02",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4910690/179277600591722352352/179277600591722352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2912373"
+      },
+      {
+       "title": "VACHYA DPP SOLUTION",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/file_library/videos/vod_non_drm_ios/4910664/1792770933_2069596153373939/168300816114152100.m3u8",
+       "topic": "",
+       "contentId": "2914713"
+      }
+     ],
+     "notes": [
+      {
+       "title": "VACHYA - LEC 01 NOTES",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566/admin_v1/pdf_images/25722361792690473_vachya_part_1.pdf"
+      },
+      {
+       "title": "VACHYA DPP PDF",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566/admin_v1/pdf_images/76961111792776085_Print-3.pdf"
+      }
+     ]
+    },
+    {
+     "name": "MANIKA 2.0 · ASUDHI SANSODHAN - 2.0",
+     "count": "4",
+     "lectures": [
+      {
+       "title": "ASUDHI SANSODHAN - LEC 01",
+       "url": "https://d3uvoof8mq1fao.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4911268/179286128389502352352/179286128389502352352_2352352.m3u8",
+       "topic": "",
+       "contentId": "2915118"
+      },
+      {
+       "title": "ASUDHI SANSODHAN - LEC 02",
+       "url": "https://d2s647pgnq81az.cloudfront.net/out/v1/b838ea84b51649599a6da6d04c47654e/index.m3u8",
+       "topic": "",
+       "contentId": "2915123"
+      },
+      {
+       "title": "ASUDHI SANSODHAN DPP SOLUTIOJ",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/file_library/videos/vod_non_drm_ios/4910892/1792827008_1156593715472558/302190616121363840.m3u8",
+       "topic": "",
+       "contentId": "2915176"
+      }
+     ],
+     "notes": [
+      {
+       "title": "ASUDHI SANSODHAN DPP",
+       "url": "https://d1xo3otg0k74xn.cloudfront.net/566/admin_v1/pdf_images/31505331792827172_Print-5.pdf"
+      }
+     ]
+    }
+   ],
+   "notes": []
+  }
+ ]
 }
